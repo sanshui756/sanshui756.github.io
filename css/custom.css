@@ -1,3 +1,5 @@
+
+
 /* 页脚透明 */
 #footer {
     background: transparent !important;
@@ -210,18 +212,6 @@ h6::before {
 
 
 
-/* @font-face {
-  font-family: Candyhome;
-  src: url(https://npm.elemecdn.com/anzhiyu-blog@1.1.6/fonts/Candyhome.ttf);
-  font-display: swap;
-  font-weight: lighter;
-} */
-@font-face {
-    font-family: ZhuZiAYuanJWD;
-    src: url(https://npm.elemecdn.com/anzhiyu-blog@1.1.6/fonts/ZhuZiAWan.woff2);
-    font-display: swap;
-    font-weight: lighter;
-}
 
 div#menus {
     font-family: "ZhuZiAYuanJWD";
@@ -257,46 +247,7 @@ svg.icon {
     overflow: hidden;
 }
 
-.icon-zhongbiao::before {
-    color: #f7c768;
-}
 
-/* bilibli番剧插件 */
-#article-container .bangumi-tab.bangumi-active {
-    background: var(--anzhiyu-theme);
-    color: var(--anzhiyu-ahoverbg);
-    border-radius: 10px;
-}
-a.bangumi-tab:hover {
-    text-decoration: none !important;
-}
-.bangumi-button:hover {
-    background: var(--anzhiyu-theme) !important;
-    border-radius: 10px !important;
-    color: var(--anzhiyu-ahoverbg) !important;
-}
-a.bangumi-button.bangumi-nextpage:hover {
-    text-decoration: none !important;
-}
-.bangumi-button {
-    padding: 5px 10px !important;
-}
-
-a.bangumi-tab {
-    padding: 5px 10px !important;
-}
-svg.icon.faa-tada {
-    font-size: 1.1em;
-}
-.bangumi-info-item {
-    border-right: 1px solid #f2b94b;
-}
-.bangumi-info-item span {
-    color: #f2b94b;
-}
-.bangumi-info-item em {
-    color: #f2b94b;
-}
 
 /* 解决artitalk的图标问题 */
 #uploadSource > svg {
@@ -411,27 +362,6 @@ div#category {
     background-color: #3b70fc;
 }
 
-/* 音乐播放器 */
-
-/* .aplayer .aplayer-lrc {
-  display: none !important;
-} */
-
-.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
-    left: -66px !important;
-    transition: all 0.3s;
-    /* 默认情况下缩进左侧66px，只留一点箭头部分 */
-}
-
-.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
-    left: 0 !important;
-    transition: all 0.3s;
-    /* 鼠标悬停是左侧缩进归零，完全显示按钮 */
-}
-
-.aplayer.aplayer-fixed {
-    z-index: 999999 !important;
-}
 
 /* 评论框  */
 .vwrap {
@@ -552,13 +482,7 @@ div#category {
     border-radius: 12px;
 }
 
-#body-wrap.error .aside-list .aside-list-item .thumbnail {
-    overflow: hidden;
-    width: 230px;
-    height: 143px;
-    background: var(--anzhiyu-card-bg);
-    display: flex;
-}
+
 
 #body-wrap.error .aside-list .aside-list-item .content .title {
     -webkit-line-clamp: 2;
@@ -639,3 +563,4 @@ ul.menus_item_child {
 #nav .menus_items .menus_item .menus_item_child {
     margin-top: 0px !important;
 }
+
