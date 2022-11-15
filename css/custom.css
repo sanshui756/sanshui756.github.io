@@ -1,5 +1,4 @@
 
-
 /* 页脚透明 */
 #footer {
     background: transparent !important;
@@ -564,3 +563,10 @@ ul.menus_item_child {
     margin-top: 0px !important;
 }
 
+#nav-right{
+    flex:1 1 auto;
+    justify-content: flex-end;
+    margin-left: auto;
+    display: flex;
+    flex-wrap:nowrap;
+}
