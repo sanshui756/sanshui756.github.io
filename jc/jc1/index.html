@@ -1,0 +1,398 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>butterfly主题配置1 | 三水个人博客</title><meta name="author" content="三水"><meta name="copyright" content="三水"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="作者：三 水     安装 Butterfly1git clone -b master https:&#x2F;&#x2F;github.com&#x2F;jerryc127&#x2F;hexo-theme-butterfly.git themes&#x2F;butterfly  修改 _config.yml123456789101112131415161718192021222324252627282930313233343536373">
+<meta property="og:type" content="website">
+<meta property="og:title" content="butterfly主题配置1">
+<meta property="og:url" content="https://sanshui756.github.io.git/jc/jc1/index.html">
+<meta property="og:site_name" content="三水个人博客">
+<meta property="og:description" content="作者：三 水     安装 Butterfly1git clone -b master https:&#x2F;&#x2F;github.com&#x2F;jerryc127&#x2F;hexo-theme-butterfly.git themes&#x2F;butterfly  修改 _config.yml123456789101112131415161718192021222324252627282930313233343536373">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+<meta property="article:published_time" content="2022-11-28T06:33:51.000Z">
+<meta property="article:modified_time" content="2022-11-28T12:05:17.294Z">
+<meta property="article:author" content="三水">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><link rel="shortcut icon" href="/"><link rel="canonical" href="https://sanshui756.github.io.git/jc/jc1/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: {"defaultEncoding":1,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"limitCount":50,"languages":{"author":"作者: 三水","link":"链接: ","source":"来源: 三水个人博客","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: true,
+  islazyload: false,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'butterfly主题配置1',
+  isPost: false,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2022-11-28 20:05:17'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'"><link rel="stylesheet" href="font/iconfont.css" media="defer" onload="this.media='all'"><!-- hexo injector head_end start --><link rel="stylesheet" href="https://unpkg.zhimg.com/hexo-butterfly-footer-beautify@1.0.0/lib/runtime.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.cbd.int/hexo-butterfly-wowjs/lib/animate.min.css" media="print" onload="this.media='screen'"><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.2.0"></head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/img2.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">12</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">6</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">2</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/link4/"><i class="fa-fw fa-sharp fa-solid fa-house"></i><span> 每日打卡</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 教程</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child" style="left:-75px;"><li><a class="site-page child" href="/jc/"><i class="fa-fw fas fa-folder-open"></i><span> 快速开始</span></a></li><li><a class="site-page child" href="/jc/jc1/"><i class="fa-fw fas fa-folder-open"></i><span> 主题配置</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 项目</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child" style="left:-145px;"><li><a class="site-page child" href="/link2/"><i class="fa-fw fa-sharp fa-solid fa-house"></i><span> 导航</span></a></li><li><a class="site-page child" href="/link1/"><i class="fa-fw fa-sharp fa-solid fa-house"></i><span> 图库</span></a></li><li><a class="site-page child" href="/link3/"><i class="fa-fw fa-sharp fa-solid fa-house"></i><span> 网盘分享</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 对于我</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child" style="left:-145px;"><li><a class="site-page child" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></li><li><a class="site-page child" href="/comments/"><i class="fa-fw fas fa-envelope"></i><span> 留言板</span></a></li><li><a class="site-page child" href="/about/"><i class="fa-fw fa fa-heart"></i><span> 关于我</span></a></li></ul></div></div></div></div><div class="page" id="body-wrap"><header class="not-home-page" id="page-header"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">三水个人博客</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/link4/"><i class="fa-fw fa-sharp fa-solid fa-house"></i><span> 每日打卡</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 教程</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child" style="left:-75px;"><li><a class="site-page child" href="/jc/"><i class="fa-fw fas fa-folder-open"></i><span> 快速开始</span></a></li><li><a class="site-page child" href="/jc/jc1/"><i class="fa-fw fas fa-folder-open"></i><span> 主题配置</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 项目</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child" style="left:-145px;"><li><a class="site-page child" href="/link2/"><i class="fa-fw fa-sharp fa-solid fa-house"></i><span> 导航</span></a></li><li><a class="site-page child" href="/link1/"><i class="fa-fw fa-sharp fa-solid fa-house"></i><span> 图库</span></a></li><li><a class="site-page child" href="/link3/"><i class="fa-fw fa-sharp fa-solid fa-house"></i><span> 网盘分享</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 对于我</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child" style="left:-145px;"><li><a class="site-page child" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></li><li><a class="site-page child" href="/comments/"><i class="fa-fw fas fa-envelope"></i><span> 留言板</span></a></li><li><a class="site-page child" href="/about/"><i class="fa-fw fa fa-heart"></i><span> 关于我</span></a></li></ul></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="page-site-info"><h1 id="site-title">butterfly主题配置1</h1></div></header><main class="layout hide-aside" id="content-inner"><div id="page"><div id="article-container"><pre><code>    作者：三 水   
+</code></pre>
+<h2 id="安装-Butterfly"><a href="#安装-Butterfly" class="headerlink" title="安装 Butterfly"></a>安装 Butterfly</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone -b master https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly</span><br></pre></td></tr></table></figure>
+
+<h2 id="修改-config-yml"><a href="#修改-config-yml" class="headerlink" title="修改 _config.yml"></a>修改 _config.yml</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br><span class="line">153</span><br></pre></td><td class="code"><pre><span class="line"># Hexo Configuration</span><br><span class="line">## Docs: https://hexo.io/docs/configuration.html</span><br><span class="line">## Source: https://github.com/hexojs/hexo/</span><br><span class="line"></span><br><span class="line"># Site</span><br><span class="line">title: 三水个人博客</span><br><span class="line">subtitle: &#x27;欢迎您&#x27;</span><br><span class="line">description: &#x27;欢迎每一位看官&#x27;</span><br><span class="line">keywords:</span><br><span class="line">author: 三水</span><br><span class="line">language: zh-CN</span><br><span class="line">timezone: &#x27;&#x27;</span><br><span class="line"></span><br><span class="line"># URL</span><br><span class="line">## Set your site url here. For example, if you use GitHub Page, set url as &#x27;https://username.github.io/project&#x27;</span><br><span class="line">url: https://sanshui756.github.io.git</span><br><span class="line">permalink: :year/:month/:day/:title/</span><br><span class="line">permalink_defaults:</span><br><span class="line">pretty_urls:</span><br><span class="line">  trailing_index: true # Set to false to remove trailing &#x27;index.html&#x27; from permalinks</span><br><span class="line">  trailing_html: true # Set to false to remove trailing &#x27;.html&#x27; from permalinks</span><br><span class="line"></span><br><span class="line"># Directory</span><br><span class="line">source_dir: source</span><br><span class="line">public_dir: public</span><br><span class="line">tag_dir: tags</span><br><span class="line">archive_dir: archives</span><br><span class="line">category_dir: categories</span><br><span class="line">code_dir: downloads/code</span><br><span class="line">i18n_dir: :lang</span><br><span class="line">skip_render:</span><br><span class="line"></span><br><span class="line"># Writing</span><br><span class="line">new_post_name: :title.md # File name of new posts</span><br><span class="line">default_layout: post</span><br><span class="line">titlecase: false # Transform title into titlecase</span><br><span class="line">external_link:</span><br><span class="line">  enable: true # Open external links in new tab</span><br><span class="line">  field: site # Apply to the whole site</span><br><span class="line">  exclude: &#x27;&#x27;</span><br><span class="line">filename_case: 0</span><br><span class="line">render_drafts: false</span><br><span class="line">post_asset_folder: false</span><br><span class="line">relative_link: false</span><br><span class="line">future: true</span><br><span class="line">highlight:</span><br><span class="line">  enable: true</span><br><span class="line">  line_number: true</span><br><span class="line">  auto_detect: false</span><br><span class="line">  tab_replace: &#x27;&#x27;</span><br><span class="line">  wrap: true</span><br><span class="line">  hljs: false</span><br><span class="line">prismjs:</span><br><span class="line">  enable: false</span><br><span class="line">  preprocess: true</span><br><span class="line">  line_number: true</span><br><span class="line">  tab_replace: &#x27;&#x27;</span><br><span class="line"></span><br><span class="line"># Home page setting</span><br><span class="line"># path: Root path for your blogs index page. (default = &#x27;&#x27;)</span><br><span class="line"># per_page: Posts displayed per page. (0 = disable pagination)</span><br><span class="line"># order_by: Posts order. (Order by date descending by default)</span><br><span class="line">index_generator:</span><br><span class="line">  path: &#x27;&#x27;</span><br><span class="line">  per_page: 5</span><br><span class="line">  order_by: -date</span><br><span class="line"></span><br><span class="line"># Category &amp; Tag</span><br><span class="line">default_category: uncategorized</span><br><span class="line">category_map:</span><br><span class="line">tag_map:</span><br><span class="line"></span><br><span class="line"># Metadata elements</span><br><span class="line">## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta</span><br><span class="line">meta_generator: true</span><br><span class="line"></span><br><span class="line"># Date / Time format</span><br><span class="line">## Hexo uses Moment.js to parse and display date</span><br><span class="line">## You can customize the date format as defined in</span><br><span class="line">## http://momentjs.com/docs/#/displaying/format/</span><br><span class="line">date_format: YYYY-MM-DD</span><br><span class="line">time_format: HH:mm:ss</span><br><span class="line">## updated_option supports &#x27;mtime&#x27;, &#x27;date&#x27;, &#x27;empty&#x27;</span><br><span class="line">updated_option: &#x27;mtime&#x27;</span><br><span class="line"></span><br><span class="line"># Pagination</span><br><span class="line">## Set per_page to 0 to disable pagination</span><br><span class="line">per_page: 10</span><br><span class="line">pagination_dir: page</span><br><span class="line"></span><br><span class="line"># Include / Exclude file(s)</span><br><span class="line">## include:/exclude: options only apply to the &#x27;source/&#x27; folder</span><br><span class="line">include:</span><br><span class="line">exclude:</span><br><span class="line">ignore:</span><br><span class="line"></span><br><span class="line"># Extensions</span><br><span class="line">## Plugins: https://hexo.io/plugins/</span><br><span class="line">## Themes: https://hexo.io/themes/</span><br><span class="line">theme: butterfly</span><br><span class="line"></span><br><span class="line"># Deployment</span><br><span class="line">## Docs: https://hexo.io/docs/one-command-deployment</span><br><span class="line"># electric_clock</span><br><span class="line"># see https://akilar.top/posts/4e39cf4a/</span><br><span class="line">electric_clock:</span><br><span class="line">  enable: false # 开关</span><br><span class="line">  priority: 5 #过滤器优先权</span><br><span class="line">  enable_page: all # 应用页面</span><br><span class="line">  exclude:</span><br><span class="line">  # - /posts/</span><br><span class="line">  # - /about/</span><br><span class="line">  layout: # 挂载容器类型</span><br><span class="line">    type: class</span><br><span class="line">    name: sticky_layout</span><br><span class="line">    index: 0</span><br><span class="line">  loading: https://npm.elemecdn.com/hexo-butterfly-clock/lib/loading.gif #加载动画自定义</span><br><span class="line">  clock_css: https://npm.elemecdn.com/hexo-butterfly-clock/lib/clock.min.css</span><br><span class="line">  clock_js: https://npm.elemecdn.com/hexo-butterfly-clock/lib/clock.min.js</span><br><span class="line">  ip_api: https://pv.sohu.com/cityjson?ie=utf-8</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">search:</span><br><span class="line">  path: search.xml</span><br><span class="line">  field: post</span><br><span class="line">  content: ture</span><br><span class="line"></span><br><span class="line">aplayer:</span><br><span class="line">  meting: true</span><br><span class="line">  asset_inject: false</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">butterfly_article_double_row:</span><br><span class="line">  enable: false</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository:自己的</span><br><span class="line">  branch: main</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+<h2 id="live2d"><a href="#live2d" class="headerlink" title="live2d"></a>live2d</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"># 安装live2d</span><br><span class="line">npm install --save hexo-helper-live2d</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"># 安装模型</span><br><span class="line">npm install --save live2d-widget-model-koharu</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="添加-config-yml"><a href="#添加-config-yml" class="headerlink" title="添加 _config.yml"></a>添加 _config.yml</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"># Live2D</span><br><span class="line">## https://github.com/EYHN/hexo-helper-live2d</span><br><span class="line">live2d:</span><br><span class="line">  enable: true #开关插件版看板娘</span><br><span class="line">  scriptFrom: local # 默认</span><br><span class="line">  # scriptFrom: https://cdn.cbd.int/live2d-widget@3.x/lib/L2Dwidget.min.js # 你的自定义 url</span><br><span class="line">  tagMode: false # 标签模式, 是否仅替换 live2d tag标签而非插入到所有页面中</span><br><span class="line">  debug: false # 调试, 是否在控制台输出日志</span><br><span class="line">  model:</span><br><span class="line">    use: live2d-widget-model-koharu # npm-module package name</span><br><span class="line">    # use: https://unpkg.com/live2d-widget-model-koharu@1.0.5/assets/koharu.model.json # 你的自定义 url</span><br><span class="line">  display:</span><br><span class="line">    position: left #控制看板娘位置</span><br><span class="line">    width: 150 #控制看板娘大小</span><br><span class="line">    height: 300 #控制看板娘大小</span><br><span class="line">  mobile:</span><br><span class="line">    show: false # 手机中是否展示</span><br></pre></td></tr></table></figure>
+
+<h2 id="本地搜索依赖"><a href="#本地搜索依赖" class="headerlink" title="本地搜索依赖"></a>本地搜索依赖</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-generator-search --save</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+<h2 id="添加-config-yml-1"><a href="#添加-config-yml-1" class="headerlink" title="添加 _config.yml"></a>添加 _config.yml</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># 本地搜索：https://github.com/wzpan/hexo-generator-search</span><br><span class="line">search:</span><br><span class="line">  path: search.xml</span><br><span class="line">  field: all</span><br><span class="line">  content: true</span><br></pre></td></tr></table></figure>
+
+<h2 id="aplayer-音乐播放器"><a href="#aplayer-音乐播放器" class="headerlink" title="aplayer 音乐播放器"></a>aplayer 音乐播放器</h2><h2 id="修改-config-butterfly-yml"><a href="#修改-config-butterfly-yml" class="headerlink" title="修改_config.butterfly.yml"></a>修改_config.butterfly.yml</h2><p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7297/image-20221128194546614.png" alt="image-20221128194546614"></p>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7297/image-20221128194802371.png" alt="image-20221128194802371"></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">- &lt;div class=&quot;aplayer no-destroy&quot; data-id=&quot;2645509561&quot; data-server=&quot;netease&quot; data-type=&quot;playlist&quot; data-fixed=&quot;true&quot; data-autoplay=&quot;true&quot; data-lrcType=&quot;-1&quot;&gt; &lt;/div&gt;</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/7297/image-20221128195007997.png" alt="image-20221128195007997"></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% meting &quot;2645509561&quot; &quot;netease&quot; &quot;playlist&quot; &quot;autoplay&quot; &quot;mutex:false&quot; &quot;listmaxheight:400px&quot; &quot;preload:none&quot; &quot;theme:#ad7a86&quot;%&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<p><strong>id可以改成自己的</strong></p>
+<figure class="highlight txt"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">选项	默认值	描述</span><br><span class="line">id	必须值	歌曲 id / 播放列表 id / 相册 id / 搜索关键字</span><br><span class="line">server	必须值	音乐平台: netease, tencent, kugou, xiami, baidu</span><br><span class="line">type	必须值	song, playlist, album, search, artist</span><br><span class="line">fixed	false	开启固定模式</span><br><span class="line">mini	false	开启迷你模式</span><br><span class="line">loop	all	列表循环模式：all, one,none</span><br><span class="line">order	list	列表播放模式： list, random</span><br><span class="line">volume	0.7	播放器音量</span><br><span class="line">lrctype	0	歌词格式类型</span><br><span class="line">listfolded	false	指定音乐播放列表是否折叠</span><br><span class="line">storagename	metingjs	LocalStorage 中存储播放器设定的键名</span><br><span class="line">autoplay	true	自动播放，移动端浏览器暂时不支持此功能</span><br><span class="line">mutex	true	该选项开启时，如果同页面有其他 aplayer 播放，该播放器会暂停</span><br><span class="line">listmaxheight	340px	播放列表的最大长度</span><br><span class="line">preload	auto	音乐文件预载入模式，可选项： none, metadata, auto</span><br><span class="line">theme	#ad7a86	播放器风格色彩设置</span><br></pre></td></tr></table></figure>
+
+<h2 id="留言板：薇尔莉特信封"><a href="#留言板：薇尔莉特信封" class="headerlink" title="留言板：薇尔莉特信封"></a>留言板：薇尔莉特信封</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-butterfly-envelope --save</span><br></pre></td></tr></table></figure>
+
+<p>添加配置项</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"># envelope_comment</span><br><span class="line"># see https://akilar.top/posts/e2d3c450/</span><br><span class="line"># envelope_comment</span><br><span class="line"># see https://akilar.top/posts/e2d3c450/</span><br><span class="line">envelope_comment:</span><br><span class="line">  enable: true #控制开关</span><br><span class="line">  custom_pic:</span><br><span class="line">    cover: https://cdn.cbd.int//hexo-butterfly-envelope/lib/violet.jpg #信笺头部图片</span><br><span class="line">    line: https://cdn.cbd.int/hexo-butterfly-envelope/lib/line.png #信笺底部图片</span><br><span class="line">    beforeimg: https://cdn.cbd.int/hexo-butterfly-envelope/lib/before.png # 信封前半部分</span><br><span class="line">    afterimg: https://cdn.cbd.int/hexo-butterfly-envelope/lib/after.png # 信封后半部分</span><br><span class="line">  message: #信笺正文，多行文本，写法如下</span><br><span class="line">    - 有什么想问的？</span><br><span class="line">    - 有什么想说的？</span><br><span class="line">    - 有什么想吐槽的？</span><br><span class="line">    - 哪怕是有什么想吃的，都可以告诉我哦~</span><br><span class="line">  bottom: 自动书记人偶竭诚为您服务！ #仅支持单行文本</span><br><span class="line">  height: #1050px，信封划出的高度</span><br><span class="line">  path: #【可选】comments 的路径名称。默认为 comments，生成的页面为 comments/index.html</span><br><span class="line">  front_matter: #【可选】comments页面的 front_matter 配置</span><br><span class="line">    title: 留言板</span><br><span class="line">    comments: true</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">留言板: /comments/ || fas fa-envelope</span><br></pre></td></tr></table></figure>
+
+<h2 id="配置自定义-css"><a href="#配置自定义-css" class="headerlink" title="配置自定义 css"></a>配置自定义 css</h2><p>新建文件<code>[Blogroot]/source/css/custom.css</code>,在 custom.css 中填入以下内容</p>
+<h2 id="主要是一图流代码-鼠标样式-滚动条样式"><a href="#主要是一图流代码-鼠标样式-滚动条样式" class="headerlink" title="主要是一图流代码 鼠标样式 滚动条样式"></a>主要是一图流代码 鼠标样式 滚动条样式</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br><span class="line">153</span><br><span class="line">154</span><br><span class="line">155</span><br><span class="line">156</span><br><span class="line">157</span><br><span class="line">158</span><br><span class="line">159</span><br><span class="line">160</span><br><span class="line">161</span><br><span class="line">162</span><br><span class="line">163</span><br><span class="line">164</span><br><span class="line">165</span><br><span class="line">166</span><br><span class="line">167</span><br><span class="line">168</span><br><span class="line">169</span><br><span class="line">170</span><br><span class="line">171</span><br><span class="line">172</span><br><span class="line">173</span><br><span class="line">174</span><br><span class="line">175</span><br><span class="line">176</span><br><span class="line">177</span><br><span class="line">178</span><br><span class="line">179</span><br><span class="line">180</span><br><span class="line">181</span><br><span class="line">182</span><br><span class="line">183</span><br><span class="line">184</span><br><span class="line">185</span><br><span class="line">186</span><br><span class="line">187</span><br><span class="line">188</span><br><span class="line">189</span><br><span class="line">190</span><br><span class="line">191</span><br><span class="line">192</span><br><span class="line">193</span><br><span class="line">194</span><br><span class="line">195</span><br><span class="line">196</span><br><span class="line">197</span><br><span class="line">198</span><br><span class="line">199</span><br><span class="line">200</span><br><span class="line">201</span><br><span class="line">202</span><br><span class="line">203</span><br><span class="line">204</span><br><span class="line">205</span><br><span class="line">206</span><br><span class="line">207</span><br><span class="line">208</span><br><span class="line">209</span><br><span class="line">210</span><br><span class="line">211</span><br><span class="line">212</span><br><span class="line">213</span><br><span class="line">214</span><br><span class="line">215</span><br><span class="line">216</span><br><span class="line">217</span><br><span class="line">218</span><br><span class="line">219</span><br><span class="line">220</span><br><span class="line">221</span><br><span class="line">222</span><br><span class="line">223</span><br><span class="line">224</span><br><span class="line">225</span><br><span class="line">226</span><br><span class="line">227</span><br><span class="line">228</span><br><span class="line">229</span><br><span class="line">230</span><br><span class="line">231</span><br><span class="line">232</span><br><span class="line">233</span><br><span class="line">234</span><br><span class="line">235</span><br><span class="line">236</span><br><span class="line">237</span><br><span class="line">238</span><br><span class="line">239</span><br><span class="line">240</span><br><span class="line">241</span><br><span class="line">242</span><br><span class="line">243</span><br><span class="line">244</span><br><span class="line">245</span><br><span class="line">246</span><br><span class="line">247</span><br><span class="line">248</span><br><span class="line">249</span><br><span class="line">250</span><br><span class="line">251</span><br><span class="line">252</span><br><span class="line">253</span><br><span class="line">254</span><br><span class="line">255</span><br><span class="line">256</span><br><span class="line">257</span><br><span class="line">258</span><br><span class="line">259</span><br><span class="line">260</span><br><span class="line">261</span><br><span class="line">262</span><br><span class="line">263</span><br><span class="line">264</span><br><span class="line">265</span><br><span class="line">266</span><br><span class="line">267</span><br><span class="line">268</span><br><span class="line">269</span><br><span class="line">270</span><br><span class="line">271</span><br><span class="line">272</span><br><span class="line">273</span><br><span class="line">274</span><br><span class="line">275</span><br><span class="line">276</span><br><span class="line">277</span><br><span class="line">278</span><br><span class="line">279</span><br><span class="line">280</span><br><span class="line">281</span><br><span class="line">282</span><br><span class="line">283</span><br><span class="line">284</span><br><span class="line">285</span><br><span class="line">286</span><br><span class="line">287</span><br><span class="line">288</span><br><span class="line">289</span><br><span class="line">290</span><br><span class="line">291</span><br><span class="line">292</span><br><span class="line">293</span><br><span class="line">294</span><br><span class="line">295</span><br><span class="line">296</span><br><span class="line">297</span><br><span class="line">298</span><br><span class="line">299</span><br><span class="line">300</span><br><span class="line">301</span><br><span class="line">302</span><br><span class="line">303</span><br><span class="line">304</span><br></pre></td><td class="code"><pre><span class="line">/* @font-face &#123;</span><br><span class="line">  font-family: Candyhome;</span><br><span class="line">  src: url(https://npm.elemecdn.com/anzhiyu-blog@1.1.6/fonts/Candyhome.ttf);</span><br><span class="line">  font-display: swap;</span><br><span class="line">  font-weight: lighter;</span><br><span class="line">&#125; */</span><br><span class="line">@font-face &#123;</span><br><span class="line">  font-family: ZhuZiAYuanJWD;</span><br><span class="line">  src: url(https://npm.elemecdn.com/anzhiyu-blog@1.1.6/fonts/ZhuZiAWan.woff2);</span><br><span class="line">  font-display: swap;</span><br><span class="line">  font-weight: lighter;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">div#menus &#123;</span><br><span class="line">  font-family: &quot;ZhuZiAYuanJWD&quot;;</span><br><span class="line">&#125;</span><br><span class="line">h1#site-title &#123;</span><br><span class="line">  font-family: ZhuZiAYuanJWD;</span><br><span class="line">  font-size: 3em !important;</span><br><span class="line">&#125;</span><br><span class="line">a.article-title,</span><br><span class="line">a.blog-slider__title,</span><br><span class="line">a.categoryBar-list-link,</span><br><span class="line">h1.post-title &#123;</span><br><span class="line">  font-family: ZhuZiAYuanJWD;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.iconfont &#123;</span><br><span class="line">  font-family: &quot;iconfont&quot; !important;</span><br><span class="line">  font-size: 3em;</span><br><span class="line">  /* 可以定义图标大小 */</span><br><span class="line">  font-style: normal;</span><br><span class="line">  -webkit-font-smoothing: antialiased;</span><br><span class="line">  -moz-osx-font-smoothing: grayscale;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">/*top-img黑色透明玻璃效果移除，不建议加，除非你执着于完全一图流或者背景图对比色明显 */</span><br><span class="line">#page-header:not(.not-top-img):before &#123;</span><br><span class="line">  background-color: transparent !important;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/* 首页文章卡片 */</span><br><span class="line">#recent-posts &gt; .recent-post-item &#123;</span><br><span class="line">  background: rgba(255, 255, 255, 0.9);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/* 首页侧栏卡片 */</span><br><span class="line">#aside-content .card-widget &#123;</span><br><span class="line">  background: rgba(255, 255, 255, 0.9);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/* 文章页面正文背景 */</span><br><span class="line">div#post &#123;</span><br><span class="line">  background: rgba(255, 255, 255, 0.9);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/* 分页页面 */</span><br><span class="line">div#page &#123;</span><br><span class="line">  background: rgba(255, 255, 255, 0.9);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/* 归档页面 */</span><br><span class="line">div#archive &#123;</span><br><span class="line">  background: rgba(255, 255, 255, 0.9);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/* 标签页面 */</span><br><span class="line">div#tag &#123;</span><br><span class="line">  background: rgba(255, 255, 255, 0.9);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/* 分类页面 */</span><br><span class="line">div#category &#123;</span><br><span class="line">  background: rgba(255, 255, 255, 0.9);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/*夜间模式伪类遮罩层透明*/</span><br><span class="line">[data-theme=&quot;dark&quot;] #recent-posts &gt; .recent-post-item &#123;</span><br><span class="line">  background: #121212;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">[data-theme=&quot;dark&quot;] .card-widget &#123;</span><br><span class="line">  background: #121212 !important;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">[data-theme=&quot;dark&quot;] div#post &#123;</span><br><span class="line">  background: #121212 !important;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">[data-theme=&quot;dark&quot;] div#tag &#123;</span><br><span class="line">  background: #121212 !important;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">[data-theme=&quot;dark&quot;] div#archive &#123;</span><br><span class="line">  background: #121212 !important;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">[data-theme=&quot;dark&quot;] div#page &#123;</span><br><span class="line">  background: #121212 !important;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">[data-theme=&quot;dark&quot;] div#category &#123;</span><br><span class="line">  background: #121212 !important;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">[data-theme=&quot;dark&quot;] div#category &#123;</span><br><span class="line">  background: transparent !important;</span><br><span class="line">&#125;</span><br><span class="line">/* 页脚透明 */</span><br><span class="line">#footer &#123;</span><br><span class="line">  background: transparent !important;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/* 头图透明 */</span><br><span class="line">#page-header &#123;</span><br><span class="line">  background: transparent !important;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">#rightside &gt; div &gt; button &#123;</span><br><span class="line">  border-radius: 5px;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/* 滚动条 */</span><br><span class="line"></span><br><span class="line">::-webkit-scrollbar &#123;</span><br><span class="line">  width: 10px;</span><br><span class="line">  height: 10px;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">::-webkit-scrollbar-thumb &#123;</span><br><span class="line">  background-color: #3b70fc;</span><br><span class="line">  border-radius: 2em;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">::-webkit-scrollbar-corner &#123;</span><br><span class="line">  background-color: transparent;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">::-moz-selection &#123;</span><br><span class="line">  color: #fff;</span><br><span class="line">  background-color: #3b70fc;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">/* 评论框  */</span><br><span class="line">.vwrap &#123;</span><br><span class="line">  box-shadow: 2px 2px 5px #bbb;</span><br><span class="line">  background: rgba(255, 255, 255, 0.3);</span><br><span class="line">  border-radius: 8px;</span><br><span class="line">  padding: 30px;</span><br><span class="line">  margin: 30px 0px 30px 0px;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/* 设置评论框 */</span><br><span class="line"></span><br><span class="line">.vcard &#123;</span><br><span class="line">  box-shadow: 2px 2px 5px #bbb;</span><br><span class="line">  background: rgba(255, 255, 255, 0.3);</span><br><span class="line">  border-radius: 8px;</span><br><span class="line">  padding: 30px;</span><br><span class="line">  margin: 30px 0px 0px 0px;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/* 鼠标图标 */</span><br><span class="line">body &#123;</span><br><span class="line">  cursor: url(&quot;/img/x1.cur&quot;), auto;</span><br><span class="line">&#125;</span><br><span class="line">a,</span><br><span class="line">[type=&quot;button&quot;]:not(:disabled),</span><br><span class="line">[type=&quot;reset&quot;]:not(:disabled),</span><br><span class="line">[type=&quot;submit&quot;]:not(:disabled),</span><br><span class="line">button:not(:disabled) &#123;</span><br><span class="line">  cursor: url(&quot;/img/x2.cur&quot;), auto !important;</span><br><span class="line">&#125;</span><br><span class="line">/* md网站下划线 */</span><br><span class="line">#article-container a:hover &#123;</span><br><span class="line">  text-decoration: none !important;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">#article-container #hpp_talk p img &#123;</span><br><span class="line">  display: inline;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/* 404页面 */</span><br><span class="line">#error-wrap &#123;</span><br><span class="line">  position: absolute;</span><br><span class="line">  top: 40%;</span><br><span class="line">  right: 0;</span><br><span class="line">  left: 0;</span><br><span class="line">  margin: 0 auto;</span><br><span class="line">  padding: 0 1rem;</span><br><span class="line">  max-width: 1000px;</span><br><span class="line">  transform: translate(0, -50%);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">#error-wrap .error-content &#123;</span><br><span class="line">  display: flex;</span><br><span class="line">  flex-direction: row;</span><br><span class="line">  justify-content: center;</span><br><span class="line">  align-items: center;</span><br><span class="line">  margin: 0 1rem;</span><br><span class="line">  height: 18rem;</span><br><span class="line">  border-radius: 8px;</span><br><span class="line">  background: var(--card-bg);</span><br><span class="line">  box-shadow: var(--card-box-shadow);</span><br><span class="line">  transition: all 0.3s;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">#error-wrap .error-content .error-img &#123;</span><br><span class="line">  box-flex: 1;</span><br><span class="line">  flex: 1;</span><br><span class="line">  height: 100%;</span><br><span class="line">  border-top-left-radius: 8px;</span><br><span class="line">  border-bottom-left-radius: 8px;</span><br><span class="line">  background-color: #3b70fc;</span><br><span class="line">  background-position: center;</span><br><span class="line">  background-size: cover;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">#error-wrap .error-content .error-info &#123;</span><br><span class="line">  box-flex: 1;</span><br><span class="line">  flex: 1;</span><br><span class="line">  padding: 0.5rem;</span><br><span class="line">  text-align: center;</span><br><span class="line">  font-size: 14px;</span><br><span class="line">  font-family: Titillium Web, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft JhengHei&quot;, &quot;Microsoft YaHei&quot;, sans-serif;</span><br><span class="line">&#125;</span><br><span class="line">#error-wrap .error-content .error-info .error_title &#123;</span><br><span class="line">  margin-top: -4rem;</span><br><span class="line">  font-size: 9em;</span><br><span class="line">&#125;</span><br><span class="line">#error-wrap .error-content .error-info .error_subtitle &#123;</span><br><span class="line">  margin-top: -3.5rem;</span><br><span class="line">  word-break: break-word;</span><br><span class="line">  font-size: 1.6em;</span><br><span class="line">&#125;</span><br><span class="line">#error-wrap .error-content .error-info a &#123;</span><br><span class="line">  display: inline-block;</span><br><span class="line">  margin-top: 0.5rem;</span><br><span class="line">  padding: 0.3rem 1.5rem;</span><br><span class="line">  background: var(--btn-bg);</span><br><span class="line">  color: var(--btn-color);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">#body-wrap.error .aside-list &#123;</span><br><span class="line">  display: flex;</span><br><span class="line">  flex-direction: row;</span><br><span class="line">  flex-wrap: nowrap;</span><br><span class="line">  bottom: 0px;</span><br><span class="line">  position: absolute;</span><br><span class="line">  padding: 1rem;</span><br><span class="line">  width: 100%;</span><br><span class="line">  overflow: scroll;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">#body-wrap.error .aside-list .aside-list-group &#123;</span><br><span class="line">  display: flex;</span><br><span class="line">  flex-direction: row;</span><br><span class="line">  flex-wrap: nowrap;</span><br><span class="line">  max-width: 1200px;</span><br><span class="line">  margin: 0 auto;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">#body-wrap.error .aside-list .aside-list-item &#123;</span><br><span class="line">  padding: 0.5rem;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">#body-wrap.error .aside-list .aside-list-item img &#123;</span><br><span class="line">  width: 100%;</span><br><span class="line">  object-fit: cover;</span><br><span class="line">  border-radius: 12px;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">#body-wrap.error .aside-list .aside-list-item .thumbnail &#123;</span><br><span class="line">  overflow: hidden;</span><br><span class="line">  width: 230px;</span><br><span class="line">  height: 143px;</span><br><span class="line">  background: var(--anzhiyu-card-bg);</span><br><span class="line">  display: flex;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">#body-wrap.error .aside-list .aside-list-item .content .title &#123;</span><br><span class="line">  -webkit-line-clamp: 2;</span><br><span class="line">  overflow: hidden;</span><br><span class="line">  display: -webkit-box;</span><br><span class="line">  -webkit-box-orient: vertical;</span><br><span class="line">  line-height: 1.5;</span><br><span class="line">  justify-content: center;</span><br><span class="line">  align-items: flex-end;</span><br><span class="line">  align-content: center;</span><br><span class="line">  padding-top: 0.5rem;</span><br><span class="line">  color: white;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">#body-wrap.error .aside-list .aside-list-item .content time &#123;</span><br><span class="line">  display: none;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/* 代码框主题 */</span><br><span class="line">#article-container figure.highlight &#123;</span><br><span class="line">  border-radius: 10px;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+<p>在<code>_config.butterfly.yml</code>中搜索 Inject 添加以下代码，将自定义 css<code>custom.css</code>引入</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">inject:</span><br><span class="line">head:</span><br><span class="line">  - &lt;link rel=&quot;stylesheet&quot; href=&quot;/css/custom.css&quot; media=&quot;defer&quot; onload=&quot;this.media=&#x27;all&#x27;&quot;&gt;</span><br></pre></td></tr></table></figure>
+
+<h2 id="电子钟"><a href="#电子钟" class="headerlink" title="电子钟"></a>电子钟</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-butterfly-clock-anzhiyu --save</span><br></pre></td></tr></table></figure>
+
+<p>添加配置项</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"># electric_clock</span><br><span class="line"># see https://anzhiy.cn/posts/fc18.html</span><br><span class="line">electric_clock:</span><br><span class="line">  enable: true # 开关</span><br><span class="line">  priority: 5 #过滤器优先权</span><br><span class="line">  enable_page: all # 应用页面</span><br><span class="line">  exclude:</span><br><span class="line">    # - /posts/</span><br><span class="line">    # - /about/</span><br><span class="line">  layout: # 挂载容器类型</span><br><span class="line">    type: class</span><br><span class="line">    name: sticky_layout</span><br><span class="line">    index: 0</span><br><span class="line">  loading: https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu@1.1.6/lib/loading.gif #加载动画自定义</span><br><span class="line">  clock_css: https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu@1.1.6/lib/clock.min.css</span><br><span class="line">  clock_js: https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu@1.1.6/lib/clock.min.js</span><br><span class="line">  ip_api: https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0</span><br><span class="line">  qweather_key: 需要自己的申请# 和风天气key</span><br><span class="line">  gaud_map_key: 需要自己申请# 高得地图web服务key</span><br><span class="line">  default_rectangle: true # 开启后将一直显示rectangle位置的天气，否则将获取访问者的地理位置与天气</span><br><span class="line">  rectangle: 112.6534116,27.96920845 # 获取访问者位置失败时会显示该位置的天气，同时该位置为开启default_rectangle后的位置</span><br></pre></td></tr></table></figure>
+
+
+
+</div><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="twikoo-wrap"></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2021 - 2022 By 三水</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="translateLink" type="button" title="简繁转换">简</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="chat_btn" type="button" title="聊天"><i class="fas fa-sms"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><script src="/js/search/local-search.js"></script><script>var preloader = {
+  endLoading: () => {
+    document.body.style.overflow = 'auto';
+    document.getElementById('loading-box').classList.add("loaded")
+  },
+  initLoading: () => {
+    document.body.style.overflow = '';
+    document.getElementById('loading-box').classList.remove("loaded")
+
+  }
+}
+window.addEventListener('load',preloader.endLoading())</script><div class="js-pjax"><script>(() => {
+  const $mermaidWrap = document.querySelectorAll('#article-container .mermaid-wrap')
+  if ($mermaidWrap.length) {
+    window.runMermaid = () => {
+      window.loadMermaid = true
+      const theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'default'
+
+      Array.from($mermaidWrap).forEach((item, index) => {
+        const mermaidSrc = item.firstElementChild
+        const mermaidThemeConfig = '%%{init:{ \'theme\':\'' + theme + '\'}}%%\n'
+        const mermaidID = 'mermaid-' + index
+        const mermaidDefinition = mermaidThemeConfig + mermaidSrc.textContent
+        mermaid.mermaidAPI.render(mermaidID, mermaidDefinition, (svgCode) => {
+          mermaidSrc.insertAdjacentHTML('afterend', svgCode)
+        })
+      })
+    }
+
+    const loadMermaid = () => {
+      window.loadMermaid ? runMermaid() : getScript('https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js').then(runMermaid)
+    }
+
+    window.pjax ? loadMermaid() : document.addEventListener('DOMContentLoaded', loadMermaid)
+  }
+})()</script><script>(()=>{
+  const init = () => {
+    twikoo.init(Object.assign({
+      el: '#twikoo-wrap',
+      envId: 'https://twikoo.sanshui.vip/',
+      region: '',
+      onCommentLoaded: function () {
+        btf.loadLightbox(document.querySelectorAll('#twikoo .tk-content img:not(.tk-owo-emotion)'))
+      }
+    }, null))
+  }
+
+  const getCount = () => {
+    const countELement = document.getElementById('twikoo-count')
+    if(!countELement) return
+    twikoo.getCommentsCount({
+      envId: 'https://twikoo.sanshui.vip/',
+      region: '',
+      urls: [window.location.pathname],
+      includeReply: false
+    }).then(function (res) {
+      countELement.innerText = res[0].count
+    }).catch(function (err) {
+      console.error(err);
+    });
+  }
+
+  const runFn = () => {
+    init()
+    GLOBAL_CONFIG_SITE.isPost && getCount()
+  }
+
+  const loadTwikoo = () => {
+    if (typeof twikoo === 'object') {
+      setTimeout(runFn,0)
+      return
+    } 
+    getScript('https://cdn.jsdelivr.net/npm/twikoo/dist/twikoo.all.min.js').then(runFn)
+  }
+
+  if ('Twikoo' === 'Twikoo' || !true) {
+    if (true) btf.loadComment(document.getElementById('twikoo-wrap'), loadTwikoo)
+    else loadTwikoo()
+  } else {
+    window.loadOtherComment = () => {
+      loadTwikoo()
+    }
+  }
+})()</script></div><script data-pjax src="//npm.elemecdn.com/pace-js@1.2.4/pace.min.js"></script><div class="aplayer no-destroy" data-id="2645509561" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true" data-lrcType="-1"> </div><script src="/js/timing.js"></script><script async src="////at.alicdn.com/t/c/font_3766665_hj1o4yrgm0t.js"></script>null<script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = true;
+POWERMODE.mobile = false;
+document.body.addEventListener('input', POWERMODE);
+</script><script id="click-heart" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/click-heart.min.js" async="async" mobile="false"></script><script>window.$crisp = [];
+window.CRISP_WEBSITE_ID = "fa2a0a43-c9f9-4a2c-aca7-972f44721eaf";
+(function () {
+  d = document;
+  s = d.createElement("script");
+  s.src = "https://client.crisp.chat/l.js";
+  s.async = 1;
+  d.getElementsByTagName("head")[0].appendChild(s);
+})();
+$crisp.push(["safe", true])
+
+if (true) {
+  $crisp.push(["do", "chat:hide"])
+  $crisp.push(["on", "chat:closed", function() {
+    $crisp.push(["do", "chat:hide"])
+  }])
+  var chatBtnFn = () => {
+    var chatBtn = document.getElementById("chat_btn")
+    chatBtn.addEventListener("click", function(){
+      $crisp.push(["do", "chat:show"])
+      $crisp.push(["do", "chat:open"])
+
+    });
+  }
+  chatBtnFn()
+} else {
+  if (true) {
+    function chatBtnHide () {
+      $crisp.push(["do", "chat:hide"])
+    }
+    function chatBtnShow () {
+      $crisp.push(["do", "chat:show"])
+    }
+  }
+}</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/metingjs/dist/Meting.min.js"></script></div><!-- hexo injector body_end start --><script data-pjax>
+  function butterfly_footer_beautify_injector_config(){
+    var parent_div_git = document.getElementById('footer-wrap');
+    var item_html = '<div id="workboard"></div><p id="ghbdages"><a class="github-badge" target="_blank" href="https://beian.miit.gov.cn/#/Integrated/index" style="margin-inline:5px" data-title="本站已在河北进行备案" title=""><img src="https://img.shields.io/badge/冀ICP备2022016003号-e1d492?style=flat&amp;logo=data:image/png;base64,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" alt=""/></a><a class="github-badge" target="_blank" href="https://github.com/" style="margin-inline:5px" data-title="本站项目由Github托管" title=""><img src="https://img.shields.io/badge/Source-Github-d021d6?style=flat&amp;logo=GitHub" alt=""/></a><a class="github-badge" target="_blank" href="https://www.upyun.com/?utm_source=lianmeng&amp;utm_medium=referral" style="margin-inline:5px" data-title="本站使用为静态资源提供CDN加速" title=""><img src="https://img.shields.io/badge/CDN-又拍云-orange?style=flat&amp;logo=又拍云" alt=""/></a></p>';
+    console.log('已挂载butterfly_footer_beautify')
+    parent_div_git.insertAdjacentHTML("beforeend",item_html)
+    }
+  var elist = 'null'.split(',');
+  var cpage = location.pathname;
+  var epage = 'all';
+  var flag = 0;
+
+  for (var i=0;i<elist.length;i++){
+    if (cpage.includes(elist[i])){
+      flag++;
+    }
+  }
+
+  if ((epage ==='all')&&(flag == 0)){
+    butterfly_footer_beautify_injector_config();
+  }
+  else if (epage === cpage){
+    butterfly_footer_beautify_injector_config();
+  }
+  </script><script async src="https://unpkg.zhimg.com/hexo-butterfly-footer-beautify@1.0.0/lib/runtime.min.js"></script><div class="js-pjax"><script async="async">var arr = document.getElementsByClassName('recent-post-item');
+for(var i = 0;i<arr.length;i++){
+    arr[i].classList.add('wow');
+    arr[i].classList.add('animate__zoomIn');
+    arr[i].setAttribute('data-wow-duration', '1.5s');
+    arr[i].setAttribute('data-wow-delay', '200ms');
+    arr[i].setAttribute('data-wow-offset', '30');
+    arr[i].setAttribute('data-wow-iteration', '1');
+  }</script><script async="async">var arr = document.getElementsByClassName('card-widget');
+for(var i = 0;i<arr.length;i++){
+    arr[i].classList.add('wow');
+    arr[i].classList.add('animate__zoomIn');
+    arr[i].setAttribute('data-wow-duration', '');
+    arr[i].setAttribute('data-wow-delay', '200ms');
+    arr[i].setAttribute('data-wow-offset', '');
+    arr[i].setAttribute('data-wow-iteration', '');
+  }</script><script async="async">var arr = document.getElementsByClassName('flink-list-card');
+for(var i = 0;i<arr.length;i++){
+    arr[i].classList.add('wow');
+    arr[i].classList.add('animate__flipInY');
+    arr[i].setAttribute('data-wow-duration', '3s');
+    arr[i].setAttribute('data-wow-delay', '');
+    arr[i].setAttribute('data-wow-offset', '');
+    arr[i].setAttribute('data-wow-iteration', '');
+  }</script><script async="async">var arr = document.getElementsByClassName('flink-list-card');
+for(var i = 0;i<arr.length;i++){
+    arr[i].classList.add('wow');
+    arr[i].classList.add('animate__animated');
+    arr[i].setAttribute('data-wow-duration', '3s');
+    arr[i].setAttribute('data-wow-delay', '');
+    arr[i].setAttribute('data-wow-offset', '');
+    arr[i].setAttribute('data-wow-iteration', '');
+  }</script><script async="async">var arr = document.getElementsByClassName('article-sort-item');
+for(var i = 0;i<arr.length;i++){
+    arr[i].classList.add('wow');
+    arr[i].classList.add('animate__slideInRight');
+    arr[i].setAttribute('data-wow-duration', '1.5s');
+    arr[i].setAttribute('data-wow-delay', '');
+    arr[i].setAttribute('data-wow-offset', '');
+    arr[i].setAttribute('data-wow-iteration', '');
+  }</script><script async="async">var arr = document.getElementsByClassName('site-card');
+for(var i = 0;i<arr.length;i++){
+    arr[i].classList.add('wow');
+    arr[i].classList.add('animate__flipInY');
+    arr[i].setAttribute('data-wow-duration', '3s');
+    arr[i].setAttribute('data-wow-delay', '');
+    arr[i].setAttribute('data-wow-offset', '');
+    arr[i].setAttribute('data-wow-iteration', '');
+  }</script><script async="async">var arr = document.getElementsByClassName('site-card');
+for(var i = 0;i<arr.length;i++){
+    arr[i].classList.add('wow');
+    arr[i].classList.add('animate__animated');
+    arr[i].setAttribute('data-wow-duration', '3s');
+    arr[i].setAttribute('data-wow-delay', '');
+    arr[i].setAttribute('data-wow-offset', '');
+    arr[i].setAttribute('data-wow-iteration', '');
+  }</script></div><script defer src="https://cdn.cbd.int/hexo-butterfly-wowjs/lib/wow.min.js"></script><script defer src="https://cdn.cbd.int/hexo-butterfly-wowjs/lib/wow_init.js"></script><!-- hexo injector body_end end --></body></html>
