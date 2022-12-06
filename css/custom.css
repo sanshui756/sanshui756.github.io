@@ -945,14 +945,7 @@ div#category {
     flex-wrap:nowrap;
 }
 
-html {
-    -webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-    -ms-filter: grayscale(100%);
-    -o-filter: grayscale(100%);
-    filter: grayscale(100%);
-    filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
-}
+
 /* 头像微调 */
 .flink-item-icon {
     margin-right: 0 !important;
@@ -990,4 +983,12 @@ html {
     -ms-transform: rotate(-180deg);
     transform: rotate(-180deg);
 }
-
+/*网站黑白*/
+html {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
+}
