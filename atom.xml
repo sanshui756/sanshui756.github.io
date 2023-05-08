@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>三十</title>
+  <title>三水的个人博客</title>
   
   
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-05-08T02:59:34.822Z</updated>
+  <updated>2023-05-08T07:00:40.988Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://example.com/2023/05/08/hello-world/"/>
     <id>http://example.com/2023/05/08/hello-world/</id>
     <published>2023-05-08T01:49:02.000Z</published>
-    <updated>2023-05-08T02:59:34.822Z</updated>
+    <updated>2023-05-08T07:00:40.988Z</updated>
     
     <content type="html"><![CDATA[<p>互联网的精神在于开发和共享，但这并不意味着就能够随意窃取我的劳动成果。本站的所有文章是我一个字一个字用心敲下来的，网站的运营只有我一个人，付出了我自己大量的精力希望看官老爷给一个免费的关注，你们的关注是我更新的最大动力。</p><p>我会坚持每周更新一篇文章我把文章分为两大板块一个是看官老爷必看内容另一个是往期优质内容推广在必看内容是简述博客的用途。在往期优质内容中我会找一些资源来进行分享和转发一些优质内容提供大家来学习也提高自己的能力我会把原作者标注出来(转载链接)同时也欢迎大家积极投稿营造绿色、安全的网络环境。</p><p>不管未来生活有多忙，生活会遇到怎么样的改变与挑战，我都会以一个匠人的心态去经营这个博客未来的道路大家一起努力。</p><p>未经本人同意擅自窃取我的劳动成果，违法必究。</p>]]></content>
     
