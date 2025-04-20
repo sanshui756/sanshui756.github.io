@@ -5,9 +5,7 @@
   --base-font-size: 15px;
 
   /* 修改全局默认字体样式 */
-  --base-font-family: STKaiti;
-
-
+  --base-font-family: sanshui;
   /*定制模块卡片的边框圆角*/
   --box-border-radius: 20px;
 
@@ -16,7 +14,6 @@
   --post-update-datetime: none;
   --post-update-datetime-override: none;
   --post-create-datetime-override: none;
-  --base-font-family: STKaiti;
-  --first-screen-font-family: 'CUSTOM-FONT';
+
 
 }

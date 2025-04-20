@@ -4380,7 +4380,7 @@ figure.highlight .shrink-line:hover::before {
   border-radius: var(--box-border-radius);
   box-shadow: 0 0 8px var(--shadow-color);
   padding-top: 1.2rem;
-  padding-bottom: 1.2rem;
+  padding-bottom: 0rem;
 }
 .category-page-container:hover {
   box-shadow: 0 0 12px var(--shadow-hover-color);
