@@ -2,18 +2,13 @@
 
 :root {
   /* 修改全局默认字体大小 */
-  --base-font-size: 15px;
+  --base-font-size: 15x;
+  --header-title-font-family: lxgw wenkai screen;
 
   /* 修改全局默认字体样式 */
-  --base-font-family: sanshui;
+  --base-font-family: lxgw wenkai screen;
   /*定制模块卡片的边框圆角*/
   --box-border-radius: 20px;
-
-  --first-screen-font-size: 40px;
-  --post-create-datetime: none;
-  --post-update-datetime: none;
-  --post-update-datetime-override: none;
-  --post-create-datetime-override: none;
 
 
 }
