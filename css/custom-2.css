@@ -2,13 +2,17 @@
 
 :root {
   /* 修改全局默认字体大小 */
-  --base-font-size: 15x;
+  --base-font-size: 18x;
   --header-title-font-family: lxgw wenkai screen;
 
   /* 修改全局默认字体样式 */
   --base-font-family: lxgw wenkai screen;
   /*定制模块卡片的边框圆角*/
   --box-border-radius: 20px;
-
-
+  /* 隐藏文章内容页面作者头像 */
+  --post-author-avatar: none;
+  --post-create-datetime: none;
+  --post-update-datetime: none;
+  --post-img-align: 0 auto;
+  --post-author-name: none;
 }
